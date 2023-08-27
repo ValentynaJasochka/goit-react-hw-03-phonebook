@@ -65,6 +65,7 @@ export class App extends Component {
       localStorage.setItem(LS_KEY, JSON.stringify(this.state.contacts));
     }
   }
+
   render() {
     const { filter } = this.state;
     const contactsList = this.filterByName();
